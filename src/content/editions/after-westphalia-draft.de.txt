@@ -1,0 +1,43 @@
+STATUS: UNVERÖFFENTLICHTER ENTWURF. Nicht in die Website eingebunden. Jede Aussage, die mit [UNVERIFIED - SOURCE CHECK REQUIRED] markiert ist, muss vor der Veröffentlichung an der Quelle geprüft werden. Keine der unten genannten Quellen wurde am Originaltext überprüft.
+
+# Nach Westfalen: Souveränität, Zuständigkeit und Legitimität
+
+## Zusammenfassung
+
+Der Westfälische Frieden von 1648 gilt häufig als Geburtsstunde des modernen Staatensystems. Dieser Essay prüft diese Deutung. Er zeigt, dass die Verträge vor allem das Heilige Römische Reich betrafen und dass das Bild einer klaren Souveränität aller Staaten eine spätere Konstruktion ist. Der Essay unterscheidet Souveränität, Zuständigkeit und Legitimität und vergleicht drei Familien von Alternativen. Das Ergebnis lautet, dass die Frage nach einer Zeit nach dem Westfälischen System weniger eine Frage des Ersatzes als der Ordnung mehrerer Ebenen ist.
+
+## 1. Frage und These
+
+Die Frage lautet: Was bedeutet Souveränität, wenn Zuständigkeiten sich über Staatsgrenzen hinweg verteilen? Die These ist, dass Souveränität als Bündel von Ansprüchen verstanden werden muss, die getrennt geprüft werden können: die Kontrolle über ein Territorium, die rechtliche Zuständigkeit für Personen und Handlungen und die Anerkennung durch andere Akteure.
+
+## 2. Historischer Kontext
+
+Die Verträge von Osnabrück und Münster (1648) regelten vor allem die Ordnung innerhalb des Heiligen Römischen Reiches. Die spätere Lesart, sie hätten ein System gleicher, souveräner Staaten begründet, wird in der Forschung kritisch diskutiert [UNVERIFIED - SOURCE CHECK REQUIRED: Osiander (2001) zur Westfalen-Mythe, Seitenangaben prüfen].
+
+Charles Tilly zeigt, dass europäische Staaten durch Zwang, Kapital und die Abschöpfung von Ressourcen entstanden [Tilly, *Coercion, Capital, and European States, AD 990-1990*, Basil Blackwell, 1990 - UNVERIFIED - SOURCE CHECK REQUIRED: Kapitel und Seiten prüfen].
+
+## 3. Begriffliche Unterscheidungen
+
+Stephen Krasner beschreibt Souveränität als "organisierte Heuchelei": Staaten erklären sich als souverän, während ihre tatsächliche Kontrolle durch Abhängigkeiten und Vereinbarungen begrenzt ist [Krasner, *Sovereignty: Organized Hypocrisy*, Princeton University Press, 1999 - UNVERIFIED - SOURCE CHECK REQUIRED: Wortlaut und Seiten prüfen].
+
+Der Essay unterscheidet daher drei Ebenen: Kontrolle über Gebiet und Infrastruktur, Zuständigkeit über Recht und Personen sowie Legitimität, also die Anerkennung der Regeln durch die Betroffenen.
+
+## 4. Vergleichende institutionelle Analyse
+
+Drei Alternativen werden verglichen. Erstens mehrstufige Ordnungen, in denen Zuständigkeiten auf mehrere Ebenen verteilt sind. Zweitens private oder gemeinschaftliche Ordnungen, die Dienste außerhalb des Staates organisieren. Drittens Netzwerkmodelle, die Zugehörigkeit auf Zustimmung statt auf Territorium gründen [UNVERIFIED - SOURCE CHECK REQUIRED: vergleichende Fallstudien für jede Alternative belegen].
+
+Jede Alternative verlagert das Problem, verschwindet es aber nicht. Mehrstufige Ordnungen brauchen Verfahren zur Konfliktlösung. Gemeinschaftliche Ordnungen brauchen Schutz für Dissidenten. Netzwerkmodelle brauchen einen Weg zur Anerkennung durch äußere Autoritäten.
+
+## 5. Gegenargumente und Schluss
+
+Ein Einwand lautet, dass das Westfälische System trotz seiner Mängel Frieden und klare Verantwortlichkeit schafft. Dieser Einwand ist ernst zu nehmen. Der Essay schließt daraus, dass jede Alternative an den Kriterien Rechenschaft, Austritt und Anerkennung gemessen werden sollte, nicht an ihrer Neuheit.
+
+Die Zeit nach dem Westfälischen System wird daher wahrscheinlich nicht durch einen einzigen Ersatz bestimmt sein, sondern durch geprüfte Ordnungen mehrerer Ebenen, deren Legitimität davon abhängt, ob die Betroffenen widersprechen und Entscheidungen korrigieren können.
+
+## Quellen zur Überprüfung
+
+1. Osiander, "Sovereignty, International Relations, and the Westphalian Myth", *International Organization* (2001). Angaben prüfen.
+2. Tilly, *Coercion, Capital, and European States, AD 990-1990* (1990). Kapitel prüfen.
+3. Krasner, *Sovereignty: Organized Hypocrisy* (1999). Wortlaut und Seiten prüfen.
+4. Ostrom, *Governing the Commons* (1990). Seitenangaben prüfen.
+5. Vergleichende Fallstudien für Abschnitt 4 (noch nicht identifiziert).
