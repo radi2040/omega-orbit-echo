@@ -1,0 +1,112 @@
+STATUS: DRAFT. NOT PUBLISHABLE UNTIL EVERY [UNVERIFIED - SOURCE CHECK REQUIRED] MARKER IS RESOLVED.
+
+After Westphalia: The Future of Political Organization
+Territorial sovereignty and the institutional possibilities of a networked age
+
+Abstract
+
+If the nation-state is no longer the only plausible model of political organization, what institutional forms could replace or sit beside it, and under what conditions could they be legitimate, accountable and durable? This essay reconstructs the Westphalian settlement as a historical arrangement rather than a natural order. It separates three ideas that are usually run together: sovereignty as a claim to final authority, jurisdiction as a bounded field of competence, and legitimacy as the consent or acceptance that makes authority stable. It then tests three families of alternatives against the same criteria: polycentric governance, network-based communities, and on-chain coordination. The central argument is that the problem is not whether alternatives can be designed. It is whether they can carry the costs the territorial state currently absorbs: enforcement, protection of minorities, exit without coercion, and accountability to people who did not choose them.
+
+1. The question
+
+The territorial state is so familiar that its shape can look like a feature of nature: a bounded territory, a population assigned to it, and a government claiming a monopoly on legitimate force within the boundary. Yet most of the institutions that people rely on daily are recent, and many of their defining features were contested within living memory. The question here is not whether the state will disappear. It is narrower and more useful. Which functions does the territorial state perform that any alternative must also perform, and which functions are historical accidents that could be carried out differently?
+
+The question matters because political organization is now being reimagined in practice. Charter cities, special economic zones, DAOs, and online communities with their own rules all claim some form of self-government. Most public discussion treats them either as a successor to the nation-state or as a fantasy with no empirical base. Both positions skip the institutional question. An alternative is only worth evaluating if it specifies who decides, who is bound, how disputes are resolved, and what happens to someone who disagrees.
+
+2. The Westphalian settlement as history
+
+The Peace of Westphalia is conventionally dated to 1648, when treaties concluded at Osnabrück and Münster ended the Thirty Years' War within the Holy Roman Empire. The standard story presents these treaties as the origin of a system in which equal sovereign states mutually recognize each other's exclusive authority over their territories and do not interfere in each other's internal affairs.
+
+The historical record supports a more careful reading. The treaties were concerned chiefly with the constitutional arrangement of the Empire, with confessional rights, and with territorial adjustments among princes, many of whom remained subject to imperial institutions. The principles later attributed to Westphalia were developed and generalized over the following centuries, particularly in the nineteenth and twentieth centuries. [UNVERIFIED - SOURCE CHECK REQUIRED: the argument that the "Westphalian" sovereignty norm is largely a later construction, associated with Andreas Osiander (2001). This draft has not read the article, so it does not state his argument in detail.]
+
+This matters for the argument. If the settlement was a specific bargain in a specific constitutional order, then its later universality is a historical achievement that can also be undone or rearranged. The state form is not a logical necessity. It is a set of practices that stabilized under particular conditions.
+
+3. Sovereignty, jurisdiction and legitimacy
+
+Three concepts need to be separated.
+
+Sovereignty, in the sense used by international relations, is a claim to final authority: no higher power may legitimately override a state's decisions within its domain. In practice, sovereignty is recognized by other actors, and states have never been fully sovereign in the sense of unconstrained control. Stephen Krasner's account of sovereignty as "organized hypocrisy" describes how states routinely violate the norm while continuing to invoke it. [UNVERIFIED - SOURCE CHECK REQUIRED: the exact formulation and page reference for Krasner (1999). The concept is cited here from general scholarly knowledge, not from the book.]
+
+Jurisdiction is a bounded field of competence: the set of cases, people and places over which an authority can make and enforce rules. Jurisdiction can overlap. A person can be subject to a city, a province, a state, a supranational court, and a professional body at once. Overlap is not a defect in itself; many pre-modern legal orders relied on it.
+
+Legitimacy is the acceptance that makes authority stable without requiring constant force. Legitimacy can come from procedures, from performance, from shared identity, or from a credible exit option. Charles Tilly's work on state formation links the development of states to the extraction of resources for war and to the bargains that governments struck with the groups they taxed. [UNVERIFIED - SOURCE CHECK REQUIRED: the argument that war made the state, and the coercion-capital framework, as they appear in Tilly (1990). This draft has not read the book.]
+
+The reason for separating these concepts is practical. A network institution may have jurisdiction without sovereignty, or legitimacy without jurisdiction over the same people. Many current alternatives fail because they assume that a single bundle of authority, the one the state holds, must be reproduced.
+
+4. Three families of alternatives
+
+The first family is polycentric governance: many overlapping centers of decision, each with limited competence, linked by rules and dispute procedures. Elinor Ostrom's work on common-pool resources is often cited as evidence that such arrangements can work at local scale. Its relevance to territorial politics at national scale is debated.
+
+The second family is network-based communities: voluntary associations, possibly without contiguous territory, that govern members through membership agreements. Their strength is exit. Members can leave without moving home. Their weakness is that the protections a state provides, such as enforcement against non-members and remedies against powerful private actors, are not automatically provided.
+
+The third family is on-chain coordination: rules encoded in software and enforced through transparent ledgers and token-weighted voting. Its strength is auditability and low transaction cost for certain decisions. Its weakness is that code is not a legal order. Rules must still be interpreted, and disputes still need human institutions to resolve them.
+
+Each family can be tested against four criteria:
+
+Enforcement. Can decisions be carried out against people who refuse them, and at what cost to third parties?
+
+Minority protection. Are people who lose a vote or hold an unpopular view protected from the majority?
+
+Exit without coercion. Can a person leave without losing access to essential goods, such as health care, property rights, or recognition as a legal person?
+
+Accountability. Can those who make decisions be held responsible by people who did not choose them, and who may be bound by them?
+
+No family currently satisfies all four criteria without relying on institutions that the family itself does not provide.
+
+5. The network state thesis, critically read
+
+The network state thesis holds that digitally coordinated communities can accumulate recognition, capital and population until they form something like a state without a single territory. Advocates describe this as a path to governance that is faster, more consensual and less bureaucratic.
+
+The thesis contains a real observation. Coordination costs have fallen, and many people already take part in rule-governed communities that cross borders. The thesis also makes a weaker claim: that recognition and capital can be accumulated without a territorial anchor and without the coercive capacity that state institutions have built up over centuries. This claim has not been demonstrated. Recognition by other states is still a precondition for most legal functions, and most states have shown little willingness to grant it to non-territorial bodies.
+
+The honest assessment is that network institutions can be real and useful, but they are likely to remain partial. They will provide services, membership and dispute procedures that sit beside the state. They will not, on current evidence, replace the state's enforcement role.
+
+6. Constraints any alternative must meet
+
+Any institutional model that aims to replace or extend the state must meet at least five constraints.
+
+It needs a credible way to resolve disputes between members and non-members.
+
+It needs a way to protect people who cannot exit, including children, the poor, and people with limited mobility.
+
+It needs funding that does not depend on the goodwill of its founders.
+
+It needs a path to accountability that does not depend on a single founder or small group.
+
+It needs a relationship to existing legal systems, because people live under those systems regardless of their memberships.
+
+Most current proposals address the first and third constraints and leave the second, fourth and fifth largely unanswered.
+
+7. Counterarguments
+
+The strongest objection to this analysis is that it judges new institutions by the standards of an old one. Territorial states also fail these tests in many places, and their failures may be as serious as the failures of alternatives. The objection is correct. The analysis does not claim that the state performs well. It claims that any alternative must explain how it will do what the state does, not only what it will do differently.
+
+A second objection is that exit is itself a form of accountability. If people can leave an institution easily, the institution must respond to them. This is partly true. The question is what exit costs. Where exit requires giving up citizenship, property or family ties, it is not a real option for many people.
+
+A third objection holds that the historical argument about Westphalia proves too much. If the state is a contingent historical form, then so is every alternative. This is also correct. The argument here is not that the state is inevitable, but that replacing it requires the same kinds of guarantees that the state provides, and those guarantees have to be built.
+
+8. Limitations and open questions
+
+This draft has several limitations. The historical account of Westphalia rests on general scholarship rather than a close reading of the primary treaty texts. The three scholarly works discussed have not been checked against their pages. The empirical cases of polycentric governance, network communities and on-chain coordination have not been surveyed in detail. Each of these is a verification task, not a conclusion.
+
+The most important open question is whether network institutions can secure enforcement and minority protection without becoming territorial states. This question cannot be answered by theory alone. It requires case evidence about how such institutions behave when they face disputes they cannot exit.
+
+9. Conclusion
+
+The Westphalian settlement is a historical achievement, not a natural law. The territorial state has been the dominant form of political organization for several centuries, but its features are a set of solutions to problems of enforcement, legitimacy and coexistence. Alternatives to the state must solve the same problems. Showing that an alternative can be designed is not enough. It must show who enforces its decisions, who protects those who lose, how exit remains real for people with fewer resources, and how those who are bound by its rules can hold it accountable. Until those questions are answered with evidence, network institutions are best understood as complements to the state rather than successors to it.
+
+Sources verified and actually used
+
+None in this draft. No source was opened, checked against its text, or confirmed against a publisher or DOI record in this session. Search summaries were used only to identify candidate works, and no claim has been checked against them.
+
+Sources requiring further verification
+
+Andreas Osiander, "Sovereignty, International Relations, and the Westphalian Myth", International Organization, 2001. Needs the publisher or DOI record and the page for the argument about the later construction of the Westphalian norm.
+
+Stephen D. Krasner, Sovereignty: Organized Hypocrisy, Princeton University Press, 1999. Needs the page reference for the "organized hypocrisy" formulation and the claim that states routinely violate sovereignty norms.
+
+Charles Tilly, Coercion, Capital, and European States, AD 990-1990, Basil Blackwell, 1990. Needs the page reference for the war-made-the-state argument and the coercion-capital framework.
+
+Elinor Ostrom, Governing the Commons, Cambridge University Press, 1990. Cited for polycentric governance of common-pool resources. Needs page references and confirmation that the characterization is accurate.
+
+Peace of Westphalia treaties (Osnabrück and Münster, 1648). Needs a primary-text or reputable historical reference for the dating, the Holy Roman Empire context, and the confessional and territorial provisions described above.
