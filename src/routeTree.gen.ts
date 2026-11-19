@@ -10,33 +10,141 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ArchitectureRouteImport } from './routes/architecture'
+import { Route as FounderRouteImport } from './routes/founder'
+import { Route as GlossaryRouteImport } from './routes/glossary'
+import { Route as LabRouteImport } from './routes/lab'
+import { Route as ResearchRouteImport } from './routes/research'
+import { Route as RoadmapRouteImport } from './routes/roadmap'
+import { Route as VisionIndexRouteImport } from './routes/vision.index'
+import { Route as VisionDomainRouteImport } from './routes/vision.$domain'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ArchitectureRoute = ArchitectureRouteImport.update({
+  id: '/architecture',
+  path: '/architecture',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FounderRoute = FounderRouteImport.update({
+  id: '/founder',
+  path: '/founder',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GlossaryRoute = GlossaryRouteImport.update({
+  id: '/glossary',
+  path: '/glossary',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LabRoute = LabRouteImport.update({
+  id: '/lab',
+  path: '/lab',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ResearchRoute = ResearchRouteImport.update({
+  id: '/research',
+  path: '/research',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RoadmapRoute = RoadmapRouteImport.update({
+  id: '/roadmap',
+  path: '/roadmap',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const VisionIndexRoute = VisionIndexRouteImport.update({
+  id: '/vision/',
+  path: '/vision/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const VisionDomainRoute = VisionDomainRouteImport.update({
+  id: '/vision/$domain',
+  path: '/vision/$domain',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/architecture': typeof ArchitectureRoute
+  '/founder': typeof FounderRoute
+  '/glossary': typeof GlossaryRoute
+  '/lab': typeof LabRoute
+  '/research': typeof ResearchRoute
+  '/roadmap': typeof RoadmapRoute
+  '/vision/$domain': typeof VisionDomainRoute
+  '/vision/': typeof VisionIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/architecture': typeof ArchitectureRoute
+  '/founder': typeof FounderRoute
+  '/glossary': typeof GlossaryRoute
+  '/lab': typeof LabRoute
+  '/research': typeof ResearchRoute
+  '/roadmap': typeof RoadmapRoute
+  '/vision/$domain': typeof VisionDomainRoute
+  '/vision': typeof VisionIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/architecture': typeof ArchitectureRoute
+  '/founder': typeof FounderRoute
+  '/glossary': typeof GlossaryRoute
+  '/lab': typeof LabRoute
+  '/research': typeof ResearchRoute
+  '/roadmap': typeof RoadmapRoute
+  '/vision/$domain': typeof VisionDomainRoute
+  '/vision/': typeof VisionIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/architecture'
+    | '/founder'
+    | '/glossary'
+    | '/lab'
+    | '/research'
+    | '/roadmap'
+    | '/vision/$domain'
+    | '/vision/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/architecture'
+    | '/founder'
+    | '/glossary'
+    | '/lab'
+    | '/research'
+    | '/roadmap'
+    | '/vision/$domain'
+    | '/vision'
+  id:
+    | '__root__'
+    | '/'
+    | '/architecture'
+    | '/founder'
+    | '/glossary'
+    | '/lab'
+    | '/research'
+    | '/roadmap'
+    | '/vision/$domain'
+    | '/vision/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ArchitectureRoute: typeof ArchitectureRoute
+  FounderRoute: typeof FounderRoute
+  GlossaryRoute: typeof GlossaryRoute
+  LabRoute: typeof LabRoute
+  ResearchRoute: typeof ResearchRoute
+  RoadmapRoute: typeof RoadmapRoute
+  VisionDomainRoute: typeof VisionDomainRoute
+  VisionIndexRoute: typeof VisionIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +156,75 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/architecture': {
+      id: '/architecture'
+      path: '/architecture'
+      fullPath: '/architecture'
+      preLoaderRoute: typeof ArchitectureRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/founder': {
+      id: '/founder'
+      path: '/founder'
+      fullPath: '/founder'
+      preLoaderRoute: typeof FounderRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/glossary': {
+      id: '/glossary'
+      path: '/glossary'
+      fullPath: '/glossary'
+      preLoaderRoute: typeof GlossaryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/lab': {
+      id: '/lab'
+      path: '/lab'
+      fullPath: '/lab'
+      preLoaderRoute: typeof LabRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/research': {
+      id: '/research'
+      path: '/research'
+      fullPath: '/research'
+      preLoaderRoute: typeof ResearchRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/roadmap': {
+      id: '/roadmap'
+      path: '/roadmap'
+      fullPath: '/roadmap'
+      preLoaderRoute: typeof RoadmapRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/vision/': {
+      id: '/vision/'
+      path: '/vision'
+      fullPath: '/vision/'
+      preLoaderRoute: typeof VisionIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/vision/$domain': {
+      id: '/vision/$domain'
+      path: '/vision/$domain'
+      fullPath: '/vision/$domain'
+      preLoaderRoute: typeof VisionDomainRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ArchitectureRoute: ArchitectureRoute,
+  FounderRoute: FounderRoute,
+  GlossaryRoute: GlossaryRoute,
+  LabRoute: LabRoute,
+  ResearchRoute: ResearchRoute,
+  RoadmapRoute: RoadmapRoute,
+  VisionDomainRoute: VisionDomainRoute,
+  VisionIndexRoute: VisionIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

@@ -15,3 +15,11 @@ describe("App routing", () => {
     expect(matches.at(-1)?.routeId).not.toBe(rootRouteId);
   });
 });
+
+describe("OMEGA navigation", () => {
+  const paths = ["/vision", "/vision/governance", "/vision/civilization", "/architecture", "/lab", "/research", "/roadmap", "/founder", "/glossary"];
+  it.each(paths)("matches a real page for %s", (path) => {
+    const router = createRouter({ routeTree, context: { queryClient: new QueryClient() } });
+    expect(router.matchRoutes(path).at(-1)?.routeId).not.toBe(rootRouteId);
+  });
+});

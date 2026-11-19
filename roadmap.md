@@ -1,0 +1,11 @@
+# OMEGA build roadmap
+- [x] Visual system + navigation (EN/DE)
+- [x] Home (preserve original hero + Ω network)
+- [x] Vision + five domain pages
+- [x] Interactive architecture explorer
+- [x] Lab: governance simulator, smart contract explorer, energy simulator
+- [x] Research library
+- [x] Roadmap timeline
+- [x] Founder profile (no contact links unless the founder sends them)
+- [x] Glossary + FAQ
+- [x] Responsive / accessibility pass, tests, browser checks
