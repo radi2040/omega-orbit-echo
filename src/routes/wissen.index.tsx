@@ -44,13 +44,13 @@ const copy = {
   ),
   program: l("Research programme", "Forschungsprogramm"),
   programmeIntro: l(
-    "These are editorial research briefs—not completed essays or peer-reviewed papers. No full draft is published here.",
-    "Dies sind redaktionelle Forschungsprofile – keine fertigen Essays oder begutachteten Fachaufsätze. Vollständige Entwürfe werden hier nicht veröffentlicht.",
+    "The founder-authored essay remains available in its original English edition. Unfinished research briefs have been removed from this catalogue.",
+    "Der vom Gründer verfasste Essay bleibt in seiner englischen Originalfassung verfügbar. Unfertige Forschungsentwürfe wurden aus diesem Katalog entfernt.",
   ),
   collections: l("Collections", "Themenfelder"),
   library: l("Explore the library", "Zur Bibliothek"),
   all: l("All themes", "Alle Themen"),
-  count: l("projects", "Projekte"),
+  count: l("publication", "Publikation"),
 };
 
 function WissenIndex() {
@@ -117,7 +117,7 @@ function WissenIndex() {
         <div className="mb-8 border-b border-border/50 pb-6">
           <SectionHeading
             eyebrow={copy.program}
-            title={l("Eight initial research projects.", "Acht erste Forschungsprojekte.")}
+            title={l("Founder-authored essay.", "Essay des Gründers.")}
             intro={copy.programmeIntro}
             className="mb-4"
           />
