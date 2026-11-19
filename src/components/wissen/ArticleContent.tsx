@@ -43,7 +43,7 @@ export function ArticleContent({ article }: { article: PublishedArticle }) {
         aria-valuenow={Math.round(progress)}
       />
       <header className="mx-auto max-w-4xl border-b border-border/50 pb-10 pt-10">
-        <div className="mono-label text-primary">WISSEN & IDEEN / {article.publishedAt}</div>
+        <div className="mono-label text-primary">WISSEN & IDEEN /</div>
         <h1 className="display-1 mt-5 text-foreground">{edition.title}</h1>
         <p className="lede mt-5 max-w-3xl">{edition.subtitle}</p>
         <div className="mt-7 flex flex-wrap gap-x-5 gap-y-2 text-sm text-muted-foreground">
