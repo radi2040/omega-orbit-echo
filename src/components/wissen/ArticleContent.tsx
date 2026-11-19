@@ -6,8 +6,14 @@ import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/
 import type { ArticleBlock, ArticleReference, PublishedArticle } from "@/content/articles";
 import { useLang, useT, l } from "@/lib/i18n";
 
-export function ArticleContent({ article }: { article: PublishedArticle }) {
-  const { lang, setLang } = useLang();
+export function ArticleContent({
+  article,
+  lang,
+}: {
+  article: PublishedArticle;
+  lang: "en" | "de";
+}) {
+  const { setLang } = useLang();
   const t = useT();
   const edition = article.editions[lang];
   const [progress, setProgress] = useState(0);

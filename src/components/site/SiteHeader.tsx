@@ -9,22 +9,49 @@ import { cn } from "@/lib/utils";
 function LanguageToggle() {
   const { lang, setLang } = useLang();
   const t = useT();
+  const articleId = useRouterState({
+    select: (state) =>
+      state.matches.some((match) => match.routeId === "/wissen/$articleId")
+        ? state.location.pathname.split("/").at(-1)
+        : undefined,
+  });
   return (
-    <div role="group" aria-label={t(ui.language)} className="flex items-center rounded-lg border border-border p-0.5 font-mono text-[10.5px]">
-      {(["en", "de"] as Lang[]).map((code) => (
-        <button
-          key={code}
-          type="button"
-          onClick={() => setLang(code)}
-          aria-pressed={lang === code}
-          className={cn(
-            "rounded-md px-2 py-1 uppercase tracking-wider transition-colors",
-            lang === code ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:text-foreground",
-          )}
-        >
-          {code}
-        </button>
-      ))}
+    <div
+      role="group"
+      aria-label={t(ui.language)}
+      className="flex items-center rounded-lg border border-border p-0.5 font-mono text-[10.5px]"
+    >
+      {(["en", "de"] as Lang[]).map((code) => {
+        const className = cn(
+          "rounded-md px-2 py-1 uppercase tracking-wider transition-colors",
+          lang === code
+            ? "bg-primary text-primary-foreground"
+            : "text-muted-foreground hover:text-foreground",
+        );
+        return articleId ? (
+          <Link
+            key={code}
+            to="/wissen/$articleId"
+            params={{ articleId }}
+            search={{ lang: code }}
+            onClick={() => setLang(code)}
+            aria-current={lang === code ? "page" : undefined}
+            className={className}
+          >
+            {code}
+          </Link>
+        ) : (
+          <button
+            key={code}
+            type="button"
+            onClick={() => setLang(code)}
+            aria-pressed={lang === code}
+            className={className}
+          >
+            {code}
+          </button>
+        );
+      })}
     </div>
   );
 }

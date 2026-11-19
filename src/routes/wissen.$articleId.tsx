@@ -86,10 +86,11 @@ function ArticleRoute() {
     if (lang !== routeLang) setLang(routeLang);
   }, [lang, routeLang, setLang]);
 
-  if (article) return <ArticleContent article={article} />;
+  if (article) return <ArticleContent article={article} lang={routeLang} />;
 
   const edition = project?.editions?.[routeLang];
-  if (project && edition) return <ArticleContent article={editionAsArticle(project, edition)} />;
+  if (project && edition)
+    return <ArticleContent article={editionAsArticle(project, edition)} lang={routeLang} />;
 
   if (!project) {
     return (

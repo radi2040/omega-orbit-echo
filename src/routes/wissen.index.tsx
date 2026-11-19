@@ -43,10 +43,6 @@ const copy = {
     "Eine unabhängige Forschungspublikation zu Institutionen, politischer Organisation und den Technologien, die das kollektive Leben prägen. Jedes Projekt beginnt mit einer Frage, benennt seine Grenzen und wird erst nach Prüfung von Quellen und Argumentation veröffentlicht.",
   ),
   program: l("Research programme", "Forschungsprogramm"),
-  programmeIntro: l(
-    "The founder-authored essay remains available in its original English edition. Unfinished research briefs have been removed from this catalogue.",
-    "Der vom Gründer verfasste Essay bleibt in seiner englischen Originalfassung verfügbar. Unfertige Forschungsentwürfe wurden aus diesem Katalog entfernt.",
-  ),
   collections: l("Collections", "Themenfelder"),
   library: l("Explore the library", "Zur Bibliothek"),
   all: l("All themes", "Alle Themen"),
@@ -118,7 +114,6 @@ function WissenIndex() {
           <SectionHeading
             eyebrow={copy.program}
             title={l("Founder-authored essay.", "Essay des Gründers.")}
-            intro={copy.programmeIntro}
             className="mb-4"
           />
           <div className="flex justify-end">
