@@ -1,0 +1,63 @@
+STATUS: UNPUBLISHED DRAFT. Not wired into the site. Every claim tagged [UNVERIFIED - SOURCE CHECK REQUIRED] must be checked against its source before publication. No citation below has been checked against its text.
+
+# The Network State: Claims, Mechanisms and Tests
+
+## Abstract
+
+The network state is a proposal for a polity organized around a digital community, with membership, coordination and eventually recognition built online and territory acquired later. This essay reconstructs the proposal in its own terms, tests its core mechanisms against comparable institutions, and identifies the points at which it succeeds or fails. The argument is that the proposal's strongest component is its theory of voluntary membership and exit, and its weakest component is the assumption that recognition and enforcement can follow from community formation alone. The essay concludes that the network state is best read as a hypothesis about institutional sequencing, which can be tested case by case.
+
+## 1. The proposal in its own terms
+
+The best-known statement of the network state is Balaji Srinivasan's book *The Network State* (self-published, 2022) [UNVERIFIED - SOURCE CHECK REQUIRED: confirm publication year and format]. The proposal, as the author states it, is a community that begins online, acquires shared values and coordination tools, and then seeks diplomatic recognition and physical territory. Membership is voluntary. Exit is meant to be easy. Governance is intended to be transparent and built on digital records.
+
+Stated carefully, the proposal has three layers: a community formed by consent, a set of coordination tools, and a later claim to recognition. The essay treats these layers separately, because each raises a different question.
+
+## 2. Digital community and coordination
+
+Voluntary association has a long history in political thought. Elinor Ostrom's work on common-pool resources shows that groups can design rules, monitoring and graduated sanctions without a sovereign owner, under specific conditions [Ostrom, *Governing the Commons*, Cambridge University Press, 1990 - UNVERIFIED - SOURCE CHECK REQUIRED: confirm page references for design principles]. Her later work argues that polycentric arrangements can handle complex coordination without a single center [Ostrom, "Beyond Markets and States", *American Economic Review* 100(3), 2010 - UNVERIFIED - SOURCE CHECK REQUIRED: confirm volume, issue and page numbers].
+
+The network state's digital layer makes these mechanisms cheaper to run. Records can be public, membership can be cheap to join and leave, and rules can be encoded. What is not established is whether the conditions Ostrom identified (clear boundaries, local monitoring, proportional rules, conflict resolution) survive when membership is global and mostly remote. [UNVERIFIED - SOURCE CHECK REQUIRED: the claim that digital communities of this scale have been studied in comparable empirical work.]
+
+## 3. Territory, law and recognition
+
+The decisive gap in the proposal is between community and sovereign. Charles Tilly's account of European state formation links coercion, capital and the extraction of resources to the capacity to govern a territory [Tilly, *Coercion, Capital, and European States, AD 990-1990*, Basil Blackwell, 1990 - UNVERIFIED - SOURCE CHECK REQUIRED: confirm the chapter on coercion]. A community that lacks coercive capacity can still be a club, a company or a DAO, but the step to a polity requires enforcement over people who did not consent.
+
+Stephen Krasner's account of sovereignty as "organized hypocrisy" is relevant here [Krasner, *Sovereignty: Organized Hypocrisy*, Princeton University Press, 1999 - UNVERIFIED - SOURCE CHECK REQUIRED: confirm wording and page]. Recognition is not a technical matter. It is a practice in which other states decide to treat an entity as a counterpart. The network state's route to recognition is therefore a question about diplomacy and interdependence, not only about software.
+
+## 4. Comparative cases
+
+Four comparisons are useful, and each has its own limits.
+
+Charter cities and special economic zones are the nearest institutional analogue: they combine a territory, a legal regime and a foreign or private administrator. [UNVERIFIED - SOURCE CHECK REQUIRED: cite a verified empirical study of special economic zones, with outcome data.]
+
+Historical chartered companies, such as the East India Company, governed territory under a corporate charter with recognition from a home state [UNVERIFIED - SOURCE CHECK REQUIRED: cite a verified history of the company's governance]. They show that private governance can hold territory, and that it depends on a parent sovereign.
+
+Online arbitration and platform governance show how private rules can be enforced through exclusion from a platform, without coercion by a state. [UNVERIFIED - SOURCE CHECK REQUIRED: cite verified empirical work on platform dispute resolution.]
+
+Stateless communities such as Tibetan exile communities or diaspora networks show how a community can maintain identity and some institutions without a territory [UNVERIFIED - SOURCE CHECK REQUIRED: cite a verified study].
+
+The lesson from these cases is consistent: private or community governance can work for a time, but durable governance has relied on recognized authority.
+
+## 5. Critiques and open tests
+
+The strongest critique is that the network state assumes that exit is cheap and voice is sufficient. Albert Hirschman's framework of exit, voice and loyalty is the standard reference for this argument [Hirschman, *Exit, Voice, and Loyalty*, Harvard University Press, 1970 - UNVERIFIED - SOURCE CHECK REQUIRED: confirm edition]. In a polity, exit is costly for people who cannot leave, and voice depends on institutions that can respond.
+
+A second critique concerns minority protection. A community formed by consent can exclude members who disagree, and the proposal does not yet say how a dissenting member is protected once a community controls its own rules.
+
+A third concerns accountability. Digital records create transparency for insiders, but not necessarily for outsiders affected by decisions, which is the group a state is most often accused of ignoring.
+
+Testable conditions follow. A network state would be tested by three observable tests: whether membership stays voluntary under real costs of exit; whether an independent dispute process reverses decisions when members object; and whether any recognition or enforcement is granted by an outside authority that did not create the community. Each test has a clear failure condition.
+
+## 6. Conclusion
+
+The network state is most usefully read as a claim about sequencing. The proposal may be right that consent-based communities can be built digitally and cheaply. It is less established that such communities can acquire the enforcement and recognition that make a polity durable. The essay's conclusion is that the proposal should be judged by its tests rather than its ambitions: voluntary exit, dissent protection, and recognition from outside authorities. Until those tests are passed, the network state remains a hypothesis.
+
+## Sources requiring verification
+
+1. Balaji Srinivasan, *The Network State* (2022). Verify publication details and quotations.
+2. Elinor Ostrom, *Governing the Commons* (Cambridge University Press, 1990). Verify design principles and page numbers.
+3. Elinor Ostrom, "Beyond Markets and States", *American Economic Review* (2010). Verify volume, issue and pages.
+4. Charles Tilly, *Coercion, Capital, and European States, AD 990-1990* (Basil Blackwell, 1990). Verify chapter references.
+5. Stephen Krasner, *Sovereignty: Organized Hypocrisy* (Princeton University Press, 1999). Verify wording and pages.
+6. Albert Hirschman, *Exit, Voice, and Loyalty* (Harvard University Press, 1970). Verify edition.
+7. Empirical studies of special economic zones, chartered companies, platform dispute resolution, and diaspora governance (not yet identified). All comparative-case claims in section 4 need sources.
