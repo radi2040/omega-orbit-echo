@@ -3,7 +3,13 @@ import { useEffect } from "react";
 import { ArticleContent } from "@/components/wissen/ArticleContent";
 import { PageHero } from "@/components/site/primitives";
 import { Badge } from "@/components/ui/badge";
-import { getPublishedArticle, getResearchProject } from "@/content/articles";
+import {
+  getPublishedArticle,
+  getResearchProject,
+  type ArticleEdition,
+  type PublishedArticle,
+  type ResearchProject,
+} from "@/content/articles";
 import { l, useLang, useT, type Lang } from "@/lib/i18n";
 
 function parseLang(search: Record<string, unknown>): { lang: Lang } {
@@ -40,6 +46,33 @@ export const Route = createFileRoute("/wissen/$articleId")({
   component: ArticleRoute,
 });
 
+const WORDS_PER_MINUTE = 230;
+
+function countEditionWords(edition: ArticleEdition): number {
+  const text = edition.sections
+    .flatMap((section) => section.blocks)
+    .map((block) => ("text" in block ? block.text : ""))
+    .join(" ");
+  return text.split(/\s+/).filter(Boolean).length;
+}
+
+function editionAsArticle(project: ResearchProject, edition: ArticleEdition): PublishedArticle {
+  const words = countEditionWords(edition);
+  const latestRevisionDate = project.revisions.at(-1)?.date ?? new Date().toISOString();
+  return {
+    id: project.id,
+    status: "published",
+    author: project.author,
+    publishedAt: latestRevisionDate,
+    updatedAt: latestRevisionDate,
+    readingMinutes: Math.max(1, Math.round(words / WORDS_PER_MINUTE)),
+    editionWordCounts: { en: words, de: 0 },
+    editions: { [edition.language]: edition } as PublishedArticle["editions"],
+    references: project.references,
+    revisions: project.revisions,
+  };
+}
+
 function ArticleRoute() {
   const { project, article } = Route.useLoaderData();
   const { lang, setLang } = useLang();
@@ -51,6 +84,9 @@ function ArticleRoute() {
   }, [lang, routeLang, setLang]);
 
   if (article) return <ArticleContent article={article} />;
+
+  const edition = project?.editions?.[routeLang];
+  if (project && edition) return <ArticleContent article={editionAsArticle(project, edition)} />;
 
   if (!project) {
     return (

@@ -1,5 +1,7 @@
 import { l, type L } from "@/lib/i18n";
 
+import { afterWestphaliaEnglish } from "@/content/editions/after-westphalia.en";
+
 export type ArticleStatus = "draft" | "review" | "published";
 
 export type ArticleTheme =
@@ -192,6 +194,7 @@ export const themeDescriptions: Record<ArticleTheme, L> = {
 export const researchProjects: ResearchProject[] = [
   {
     id: "after-westphalia",
+    editions: { en: afterWestphaliaEnglish },
     status: "draft",
     title: l(
       "After Westphalia: The Future of Political Organization",
