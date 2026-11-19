@@ -1,0 +1,44 @@
+STATUS: UNPUBLISHED DRAFT. Not wired into the site. Every claim tagged [UNVERIFIED - SOURCE CHECK REQUIRED] must be checked against its source before publication. No citation below has been checked against its text.
+
+# Digital Sovereignty and Legitimacy: Who Governs the Infrastructure?
+
+## Abstract
+
+Digital sovereignty is the claim that a political community should control the infrastructure, data and rules on which its members depend. The term is used by states, firms and civil society groups, often with different meanings. This essay offers a working vocabulary that separates control of infrastructure, jurisdiction over data and legitimacy of rule. It argues that sovereignty over digital systems is not a single capacity, and that legitimacy depends on who is affected, who can contest decisions, and whether authority can be exercised without undue dependence on foreign or private operators.
+
+## 1. A vocabulary of digital sovereignty
+
+The essay distinguishes three things often run together. Infrastructural control concerns who operates the hardware, networks and software a system depends on. Jurisdictional authority concerns which legal order applies to data and transactions. Legitimacy concerns whether those who are governed can recognize, contest and shape the rules.
+
+These can diverge. A state may have jurisdiction over a platform without operating it, and a platform may operate infrastructure across many jurisdictions without being accountable to any of them. [UNVERIFIED - SOURCE CHECK REQUIRED: cite a verified academic definition of digital sovereignty from the policy literature.]
+
+## 2. Infrastructure and jurisdiction
+
+Dependence on foreign infrastructure is a real political concern. Cloud services, operating systems and payment networks are concentrated in a small number of providers, many of them headquartered in one or two countries. Concentration creates leverage: a provider can change terms, suspend service or be compelled by its home jurisdiction to disclose data.
+
+Jurisdiction is a separate problem. Data stored in one country and processed in another may fall under the laws of several states at once. The essay does not claim that this is always a loss of sovereignty; it can also be a source of rights and protections [UNVERIFIED - SOURCE CHECK REQUIRED: cite a verified legal analysis of conflicting data jurisdictions].
+
+## 3. Legitimacy and rights
+
+Legitimacy requires more than control. Stephen Krasner's distinction between domestic, interdependence and international legal sovereignty helps separate the questions [Krasner, *Sovereignty: Organized Hypocrisy*, Princeton University Press, 1999 - UNVERIFIED - SOURCE CHECK REQUIRED: confirm the distinctions and pages]. A government that controls infrastructure without accountability to the people affected has domestic control but weak legitimacy. A platform that makes global rules without an accountable process has operational power but no clear claim to rule.
+
+The essay's test for legitimacy has four parts: those affected can know the rule; they can contest it; there is a process that can change it; and an independent body can review it.
+
+## 4. Comparative cases
+
+Three cases illustrate the tensions. National data-localization requirements aim to keep control of data within a jurisdiction. Regional data-protection regimes extend rights across borders. Private platform governance sets rules for billions of users through terms of service [UNVERIFIED - SOURCE CHECK REQUIRED: cite verified studies or primary legal texts for each case; no outcome claims are made here].
+
+Each case produces a different balance between control, jurisdiction and legitimacy, and each has been criticized from more than one side.
+
+## 5. Limits of post-national authority
+
+Post-national authority over digital systems faces three limits. Enforcement depends on states or on cooperation between them. Standards bodies and private governance can set rules, but they lack an obvious democratic basis. And rights protections that depend on a single regional regime can be undermined by actors outside its reach.
+
+The essay concludes that digital sovereignty is best understood as a set of obligations to be met, not a status to be claimed. Sovereignty over infrastructure is valuable when it comes with accountable process; without it, control concentrates in whoever holds the keys.
+
+## Sources requiring verification
+
+1. Academic definition of digital sovereignty (not yet identified). Needed for section 1.
+2. Legal analysis of conflicting data jurisdictions (not yet identified). Needed for section 2.
+3. Stephen Krasner, *Sovereignty: Organized Hypocrisy* (Princeton University Press, 1999). Verify distinctions and pages.
+4. Primary legal texts and verified studies for the three cases in section 4 (not yet identified).
