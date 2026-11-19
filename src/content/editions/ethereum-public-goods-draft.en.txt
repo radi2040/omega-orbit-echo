@@ -1,0 +1,42 @@
+STATUS: UNPUBLISHED DRAFT. Not wired into the site. Every claim tagged [UNVERIFIED - SOURCE CHECK REQUIRED] must be checked against its source before publication. No citation below has been checked against its text.
+
+# Ethereum and Public Goods: Funding, Governance and Accountability
+
+## Abstract
+
+Public goods, such as open-source software, shared standards and protocol research, are underfunded when they are left to voluntary contribution and market pricing. Ethereum has been a prominent testing ground for funding them through token issuance, grants and quadratic mechanisms. This essay defines public goods in economic terms, describes the funding and governance mechanisms used in the Ethereum ecosystem, and assesses them against the accountability and distribution questions they raise. The argument is that these mechanisms can expand funding for shared infrastructure, but their legitimacy depends on transparent allocation rules, Sybil resistance, and a clear account of who decides.
+
+## 1. Concepts and definitions
+
+A public good is non-rival and non-excludable: one person's use does not reduce another's, and it is hard to prevent use. Standard economic theory predicts underprovision, because contributors capture only part of the benefit [UNVERIFIED - SOURCE CHECK REQUIRED: cite a standard textbook treatment of public goods, with page reference]. Elinor Ostrom's work on commons extended the analysis to shared resources governed by communities rather than states or markets [Ostrom, *Governing the Commons*, Cambridge University Press, 1990 - UNVERIFIED - SOURCE CHECK REQUIRED: confirm page references].
+
+## 2. Ethereum governance
+
+Ethereum's protocol changes are proposed and decided through an informal process of research forums, developer calls and client-team coordination. The Ethereum Improvement Proposal process was documented in EIP-1, which describes the purpose and guidelines for proposals [EIP-1: EIP Purpose and Guidelines, Ethereum Improvement Proposals - UNVERIFIED - SOURCE CHECK REQUIRED: confirm current text and status]. The essay treats EIP-1 as a description of process, not as proof that the process is legitimate or representative.
+
+## 3. Funding mechanisms
+
+Three families of mechanisms are relevant: direct grants from a foundation or treasury, token-based issuance that pays contributors, and quadratic funding, in which small contributions from many people are matched in a way that weights breadth of support [UNVERIFIED - SOURCE CHECK REQUIRED: cite the original quadratic funding paper, Buterin, Hitzig and Weyl, with verified details]. Each family has a different accountability structure. Grants depend on the grant-maker's judgment; issuance depends on the token's market and the rules of distribution; quadratic funding depends on the identity system that prevents one person from counting as many.
+
+## 4. Distribution and accountability
+
+The central question is who decides which public goods are funded, and who is affected by the decision. A funding mechanism that weights token holders may allocate according to existing wealth. A mechanism that weights contributors may favor people who already have the time and networks to contribute. Sybil resistance, meaning the prevention of one actor appearing as many, is a precondition for any breadth-based mechanism [UNVERIFIED - SOURCE CHECK REQUIRED: cite verified analysis of Sybil attacks on quadratic funding].
+
+Accountability requires published allocation rules, records of decisions, a way to contest them, and evidence that funded projects deliver. The essay argues that these are the minimum conditions for a public-goods mechanism to be called legitimate.
+
+## 5. Evidence and open questions
+
+Evidence on whether these mechanisms produce useful public goods is limited and mostly self-reported. Outcome data on funded projects, their maintenance and their continued use is needed before strong claims can be made [UNVERIFIED - SOURCE CHECK REQUIRED: identify any independent evaluation of a public-goods funding round]. Open questions include whether funding can be sustained after initial token incentives fade, and whether governance by token holders can represent the people who depend on the infrastructure.
+
+## 6. Conclusion
+
+Ethereum's public-goods mechanisms address a real underprovision problem, but they do not solve the questions of distribution, identity and accountability by themselves. Their legitimacy depends on transparent rules, credible Sybil resistance, a way to contest allocation decisions and evidence of results. Until those conditions are met and independently assessed, the mechanisms should be treated as experiments, not settled institutions.
+
+## Sources requiring verification
+
+1. Standard textbook treatment of public goods (not yet identified). Needed for section 1.
+2. Elinor Ostrom, *Governing the Commons* (Cambridge University Press, 1990). Verify pages.
+3. EIP-1: EIP Purpose and Guidelines, Ethereum Improvement Proposals. Verify current text.
+4. Buterin, Hitzig and Weyl on quadratic funding. Verify citation details.
+5. Verified analysis of Sybil attacks on quadratic funding (not yet identified). Needed for section 4.
+6. Independent evaluation of a public-goods funding round (not yet identified). Needed for section 5.
