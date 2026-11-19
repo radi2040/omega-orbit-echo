@@ -55,6 +55,7 @@ export interface ResearchProject {
   outline: OutlineSection[];
   references: ArticleReference[];
   revisions: ArticleRevision[];
+  editions?: Partial<Record<"en" | "de", ArticleEdition>>;
 }
 
 export type ArticleBlock =
