@@ -1,6 +1,7 @@
 import { l, type L } from "@/lib/i18n";
 
 import { beyondNationStateEnglish } from "@/content/editions/beyond-nation-state.en";
+import { beyondNationStateGerman } from "@/content/editions/beyond-nation-state.de";
 
 export type ArticleStatus = "draft" | "review" | "published";
 
@@ -195,7 +196,7 @@ export const researchProjects: ResearchProject[] = [
   {
     id: "beyond-nation-state",
     status: "draft",
-    editions: { en: beyondNationStateEnglish },
+    editions: { en: beyondNationStateEnglish, de: beyondNationStateGerman },
     title: l("Beyond the Nation-State, Beside It", "Jenseits des Nationalstaats, neben ihm"),
     subtitle: l(
       "Network institutions as a new layer of human coordination, and the case of Omega",

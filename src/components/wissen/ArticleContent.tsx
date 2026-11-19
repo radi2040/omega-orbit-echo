@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "@tanstack/react-router";
 import { Bar, BarChart, CartesianGrid, Line, LineChart, XAxis, YAxis } from "recharts";
 import { Badge } from "@/components/ui/badge";
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
@@ -6,7 +7,7 @@ import type { ArticleBlock, ArticleReference, PublishedArticle } from "@/content
 import { useLang, useT, l } from "@/lib/i18n";
 
 export function ArticleContent({ article }: { article: PublishedArticle }) {
-  const { lang } = useLang();
+  const { lang, setLang } = useLang();
   const t = useT();
   const edition = article.editions[lang];
   const [progress, setProgress] = useState(0);
@@ -43,7 +44,28 @@ export function ArticleContent({ article }: { article: PublishedArticle }) {
         aria-valuenow={Math.round(progress)}
       />
       <header className="mx-auto max-w-4xl border-b border-border/50 pb-10 pt-10">
-        <div className="mono-label text-primary">WISSEN & IDEEN /</div>
+        <div className="flex items-center justify-between gap-4">
+          <div className="mono-label text-primary">WISSEN & IDEEN /</div>
+          <div
+            className="inline-flex gap-2"
+            role="group"
+            aria-label={t(l("Article language", "Artikelsprache"))}
+          >
+            {(["en", "de"] as const).map((code) => (
+              <Link
+                key={code}
+                to="/wissen/$articleId"
+                params={{ articleId: article.id }}
+                search={{ lang: code }}
+                onClick={() => setLang(code)}
+                aria-current={lang === code ? "page" : undefined}
+                className={`rounded-md border px-3 py-1.5 font-mono text-xs uppercase focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary ${lang === code ? "border-primary text-primary" : "border-border text-muted-foreground hover:text-foreground"}`}
+              >
+                {code}
+              </Link>
+            ))}
+          </div>
+        </div>
         <h1 className="display-1 mt-5 text-foreground">{edition.title}</h1>
         <p className="lede mt-5 max-w-3xl">{edition.subtitle}</p>
         <div className="mt-7 flex flex-wrap gap-x-5 gap-y-2 text-sm text-muted-foreground">

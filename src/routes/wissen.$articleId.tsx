@@ -66,7 +66,10 @@ function editionAsArticle(project: ResearchProject, edition: ArticleEdition): Pu
     publishedAt: latestRevisionDate,
     updatedAt: latestRevisionDate,
     readingMinutes: Math.max(1, Math.round(words / WORDS_PER_MINUTE)),
-    editionWordCounts: { en: words, de: 0 },
+    editionWordCounts: {
+      en: edition.language === "en" ? words : 0,
+      de: edition.language === "de" ? words : 0,
+    },
     editions: { [edition.language]: edition } as PublishedArticle["editions"],
     references: project.references,
     revisions: project.revisions,
