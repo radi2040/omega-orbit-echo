@@ -18,6 +18,9 @@ import { Route as ResearchRouteImport } from './routes/research'
 import { Route as RoadmapRouteImport } from './routes/roadmap'
 import { Route as VisionIndexRouteImport } from './routes/vision.index'
 import { Route as VisionDomainRouteImport } from './routes/vision.$domain'
+import { Route as WissenIndexRouteImport } from './routes/wissen.index'
+import { Route as WissenArticleIdRouteImport } from './routes/wissen.$articleId'
+import { Route as WissenBibliothekRouteImport } from './routes/wissen.bibliothek'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -64,6 +67,21 @@ const VisionDomainRoute = VisionDomainRouteImport.update({
   path: '/vision/$domain',
   getParentRoute: () => rootRouteImport,
 } as any)
+const WissenIndexRoute = WissenIndexRouteImport.update({
+  id: '/wissen/',
+  path: '/wissen/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const WissenArticleIdRoute = WissenArticleIdRouteImport.update({
+  id: '/wissen/$articleId',
+  path: '/wissen/$articleId',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const WissenBibliothekRoute = WissenBibliothekRouteImport.update({
+  id: '/wissen/bibliothek',
+  path: '/wissen/bibliothek',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -74,7 +92,10 @@ export interface FileRoutesByFullPath {
   '/research': typeof ResearchRoute
   '/roadmap': typeof RoadmapRoute
   '/vision/$domain': typeof VisionDomainRoute
+  '/wissen/$articleId': typeof WissenArticleIdRoute
+  '/wissen/bibliothek': typeof WissenBibliothekRoute
   '/vision/': typeof VisionIndexRoute
+  '/wissen/': typeof WissenIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -85,7 +106,10 @@ export interface FileRoutesByTo {
   '/research': typeof ResearchRoute
   '/roadmap': typeof RoadmapRoute
   '/vision/$domain': typeof VisionDomainRoute
+  '/wissen/$articleId': typeof WissenArticleIdRoute
+  '/wissen/bibliothek': typeof WissenBibliothekRoute
   '/vision': typeof VisionIndexRoute
+  '/wissen': typeof WissenIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -97,7 +121,10 @@ export interface FileRoutesById {
   '/research': typeof ResearchRoute
   '/roadmap': typeof RoadmapRoute
   '/vision/$domain': typeof VisionDomainRoute
+  '/wissen/$articleId': typeof WissenArticleIdRoute
+  '/wissen/bibliothek': typeof WissenBibliothekRoute
   '/vision/': typeof VisionIndexRoute
+  '/wissen/': typeof WissenIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -110,7 +137,10 @@ export interface FileRouteTypes {
     | '/research'
     | '/roadmap'
     | '/vision/$domain'
+    | '/wissen/$articleId'
+    | '/wissen/bibliothek'
     | '/vision/'
+    | '/wissen/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -121,7 +151,10 @@ export interface FileRouteTypes {
     | '/research'
     | '/roadmap'
     | '/vision/$domain'
+    | '/wissen/$articleId'
+    | '/wissen/bibliothek'
     | '/vision'
+    | '/wissen'
   id:
     | '__root__'
     | '/'
@@ -132,7 +165,10 @@ export interface FileRouteTypes {
     | '/research'
     | '/roadmap'
     | '/vision/$domain'
+    | '/wissen/$articleId'
+    | '/wissen/bibliothek'
     | '/vision/'
+    | '/wissen/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -144,7 +180,10 @@ export interface RootRouteChildren {
   ResearchRoute: typeof ResearchRoute
   RoadmapRoute: typeof RoadmapRoute
   VisionDomainRoute: typeof VisionDomainRoute
+  WissenArticleIdRoute: typeof WissenArticleIdRoute
+  WissenBibliothekRoute: typeof WissenBibliothekRoute
   VisionIndexRoute: typeof VisionIndexRoute
+  WissenIndexRoute: typeof WissenIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -212,6 +251,27 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof VisionDomainRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/wissen/': {
+      id: '/wissen/'
+      path: '/wissen'
+      fullPath: '/wissen/'
+      preLoaderRoute: typeof WissenIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/wissen/$articleId': {
+      id: '/wissen/$articleId'
+      path: '/wissen/$articleId'
+      fullPath: '/wissen/$articleId'
+      preLoaderRoute: typeof WissenArticleIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/wissen/bibliothek': {
+      id: '/wissen/bibliothek'
+      path: '/wissen/bibliothek'
+      fullPath: '/wissen/bibliothek'
+      preLoaderRoute: typeof WissenBibliothekRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -224,7 +284,10 @@ const rootRouteChildren: RootRouteChildren = {
   ResearchRoute: ResearchRoute,
   RoadmapRoute: RoadmapRoute,
   VisionDomainRoute: VisionDomainRoute,
+  WissenArticleIdRoute: WissenArticleIdRoute,
+  WissenBibliothekRoute: WissenBibliothekRoute,
   VisionIndexRoute: VisionIndexRoute,
+  WissenIndexRoute: WissenIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

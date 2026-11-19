@@ -8,10 +8,10 @@ import {
   Scripts,
   type ErrorComponentProps,
 } from "@tanstack/react-router";
-import { type ReactNode } from "react";
+import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
-import { LanguageProvider } from "@/lib/i18n";
+import { LanguageProvider, useLang } from "@/lib/i18n";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { SiteFooter } from "@/components/site/SiteFooter";
 
@@ -140,18 +140,30 @@ function RootComponent() {
   return (
     <QueryClientProvider client={queryClient}>
       <LanguageProvider>
-        <div className="site-shell">
-          <div className="ambient ambient-cyan" aria-hidden="true" />
-          <div className="ambient ambient-violet" aria-hidden="true" />
-          <div className="star-field" aria-hidden="true" />
-          <SiteHeader />
-          {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-          <main id="main" className="relative z-[1]">
-            <Outlet />
-          </main>
-          <SiteFooter />
-        </div>
+        <RootContent />
       </LanguageProvider>
     </QueryClientProvider>
+  );
+}
+
+function RootContent() {
+  const { lang } = useLang();
+
+  useEffect(() => {
+    document.documentElement.lang = lang;
+  }, [lang]);
+
+  return (
+    <div className="site-shell">
+      <div className="ambient ambient-cyan" aria-hidden="true" />
+      <div className="ambient ambient-violet" aria-hidden="true" />
+      <div className="star-field" aria-hidden="true" />
+      <SiteHeader />
+      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
+      <main id="main" className="relative z-[1]">
+        <Outlet />
+      </main>
+      <SiteFooter />
+    </div>
   );
 }

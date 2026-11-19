@@ -1,7 +1,17 @@
 import { l, type L } from "@/lib/i18n";
 
 export type NavItem = {
-  to: "/" | "/vision" | "/architecture" | "/lab" | "/research" | "/roadmap" | "/founder" | "/glossary";
+  to:
+    | "/"
+    | "/vision"
+    | "/architecture"
+    | "/lab"
+    | "/research"
+    | "/wissen"
+    | "/wissen/bibliothek"
+    | "/roadmap"
+    | "/founder"
+    | "/glossary";
   label: L;
 };
 
@@ -11,6 +21,7 @@ export const navigation: NavItem[] = [
   { to: "/architecture", label: l("Architecture", "Architektur") },
   { to: "/lab", label: l("Interactive Lab", "Labor") },
   { to: "/research", label: l("Research", "Forschung") },
+  { to: "/wissen", label: l("WISSEN & IDEEN", "WISSEN & IDEEN") },
   { to: "/roadmap", label: l("Roadmap", "Roadmap") },
   { to: "/founder", label: l("Founder", "Gründer") },
   { to: "/glossary", label: l("Glossary / FAQ", "Glossar / FAQ") },
