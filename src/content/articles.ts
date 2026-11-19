@@ -1,6 +1,7 @@
 import { l, type L } from "@/lib/i18n";
 
 import { afterWestphaliaEnglish } from "@/content/editions/after-westphalia.en";
+import { beyondNationStateEnglish } from "@/content/editions/beyond-nation-state.en";
 
 export type ArticleStatus = "draft" | "review" | "published";
 
@@ -866,6 +867,7 @@ export const researchProjects: ResearchProject[] = [
   {
     id: "beyond-nation-state",
     status: "draft",
+    editions: { en: beyondNationStateEnglish },
     title: l(
       "Beyond the Nation-State, Beside It",
       "Jenseits des Nationalstaats, neben ihm",
