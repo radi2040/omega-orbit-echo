@@ -1,26 +1,33 @@
-# Omega Orbit Echo
+# OMEGA — Infrastructure for a Decentralized Civilization
 
-Implement exactly the screenshot and nothing else
+A research vision exploring governance, digital infrastructure, energy, AI, and institutions for a decentralized civilization.
 
-This project was built with [Lovable](https://lovable.dev).
+## Stack
 
-**Live app**: https://omega-orbit-echo.lovable.app
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/1a2be03e-5e17-4d37-a18c-4f205b1c9baa).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+- TanStack Start and React
+- Vite and Tailwind CSS
+- Nitro for server rendering and deployment adapters
 
 ## Development
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Requires Node.js 20.19+ (or 22.12+) and Bun.
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
+bun install
+bun run dev
+```
+
+## Production build
+
+```sh
+bun run build
+```
+
+The build uses Nitro's Vercel preset and produces the server deployment output expected by Vercel. Keep the Vercel output directory on automatic detection; this app is server-rendered and must not be deployed as a static `dist` directory.
+
+## Checks
+
+```sh
+bun run lint
+bun run test
 ```
