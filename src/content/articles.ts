@@ -863,6 +863,98 @@ export const researchProjects: ResearchProject[] = [
     references: [],
     revisions: [],
   },
+  {
+    id: "beyond-nation-state",
+    status: "draft",
+    title: l(
+      "Beyond the Nation-State, Beside It",
+      "Jenseits des Nationalstaats, neben ihm",
+    ),
+    subtitle: l(
+      "Network institutions as a new layer of human coordination, and the case of Omega",
+      "Netzwerk-Institutionen als neue Koordinationsebene, und der Fall Omega",
+    ),
+    author: "Amine Radi",
+    themes: ["post-national-governance", "decentralized-governance", "political-philosophy"],
+    abstract: l(
+      "Network states, popup cities, DAOs and charter jurisdictions are either treated as an inevitable successor to the nation-state or dismissed as fantasy. This research project tests a narrower claim: that a voluntary, digitally coordinated, legally embedded institutional layer could expand societal capacity beside the state, and asks what Omega DAO would have to demonstrate to count as evidence for it.",
+      "Netzwerkstaaten, Pop-up-Städte, DAOs und Charter-Jurisdiktionen werden entweder als zwangsläufiger Nachfolger des Nationalstaats behandelt oder als Fantasie abgetan. Dieses Forschungsprojekt prüft eine engere Behauptung: dass eine freiwillige, digital koordinierte und rechtlich eingebettete Institutionenebene die gesellschaftliche Handlungsfähigkeit neben dem Staat erweitern könnte, und fragt, was Omega DAO belegen müsste, um dafür als Evidenz zu gelten.",
+    ),
+    researchQuestion: l(
+      "Can a voluntary network institution expand societal coordination capacity without claiming sovereignty, and what evidence would show that it does?",
+      "Kann eine freiwillige Netzwerk-Institution die gesellschaftliche Koordinationsfähigkeit erweitern, ohne Souveränität zu beanspruchen, und welche Belege würden das zeigen?",
+    ),
+    method: l(
+      "Staged falsifiability framework (eight stages); review of comparable cases (Zuzalu, Edge City, Vitalia, Próspera); scenario analysis rather than forecasts; explicit separation of observed data from design proposals.",
+      "Gestuftes Falsifizierbarkeitsmodell (acht Stufen); Überblick über vergleichbare Fälle (Zuzalu, Edge City, Vitalia, Próspera); Szenarioanalyse statt Prognosen; klare Trennung von beobachteten Daten und Gestaltungsvorschlägen.",
+    ),
+    limitations: l(
+      "No network institution has reached the framework's later stages. Omega is evaluated as a Stage 1 proposal, and quantitative claims about housing, energy and debt are drawn from dated public sources that may be revised. Nothing in this project is legal advice.",
+      "Keine Netzwerk-Institution hat die späteren Stufen des Modells erreicht. Omega wird als Vorschlag der Stufe 1 bewertet; quantitative Angaben zu Wohnen, Energie und Staatsschulden stammen aus datierten öffentlichen Quellen, die sich ändern können. Nichts in diesem Projekt ist Rechtsberatung.",
+    ),
+    targetLength: l(
+      "About 9,000 words for the full essay; source-checked before publication",
+      "Etwa 9.000 Wörter für den vollständigen Essay; vor der Veröffentlichung quellengeprüft",
+    ),
+    outline: [
+      {
+        title: l("The problem: measurable pressures on states", "Das Problem: messbare Belastungen des Staates"),
+        prompts: [
+          l(
+            "Ageing, housing, public debt, administrative overload, integration and declining trust, each with dated data and a note on what it does and does not justify.",
+            "Alterung, Wohnen, Staatsverschuldung, Verwaltungsüberlastung, Integration und sinkendes Vertrauen, jeweils mit datierten Daten und einem Hinweis, was sie begründen und was nicht.",
+          ),
+        ],
+      },
+      {
+        title: l("The state and the missing layer", "Der Staat und die fehlende Ebene"),
+        prompts: [
+          l(
+            "Why the state's coercive coordination is its strength and its uniformity its weakness; a comparison of corporations, NGOs, cooperatives, DAOs and network institutions.",
+            "Warum koerzive Koordination die Stärke des Staates und Uniformität seine Schwäche ist; ein Vergleich von Unternehmen, NGOs, Genossenschaften, DAOs und Netzwerk-Institutionen.",
+          ),
+        ],
+      },
+      {
+        title: l("The empirical record", "Die empirische Bilanz"),
+        prompts: [
+          l(
+            "Zuzalu, Edge City, Vitalia and Próspera: what worked, what was promised, and the Próspera arbitration as the central legal risk.",
+            "Zuzalu, Edge City, Vitalia und Próspera: was funktionierte, was versprochen wurde, und das Próspera-Schiedsverfahren als zentrales Rechtsrisiko.",
+          ),
+        ],
+      },
+      {
+        title: l("Stages and falsifiable hypotheses", "Stufen und falsifizierbare Hypothesen"),
+        prompts: [
+          l(
+            "The eight-stage framework from conference to recognised settlement, and six hypotheses with the evidence that would confirm or refute each.",
+            "Das achtstufige Modell von der Konferenz bis zur anerkannten Siedlung und sechs Hypothesen mit den Belegen, die sie bestätigen oder widerlegen würden.",
+          ),
+        ],
+      },
+      {
+        title: l("Omega: architecture, economics and governance", "Omega: Architektur, Ökonomie und Governance"),
+        prompts: [
+          l(
+            "Omega as a design proposal rather than operating reality: on-chain scope, node economics as scenarios, and governance failure modes.",
+            "Omega als Gestaltungsvorschlag statt als Betriebsrealität: Umfang der On-Chain-Komponenten, Knotenökonomie als Szenarien und Governance-Fehlerquellen.",
+          ),
+        ],
+      },
+      {
+        title: l("Strongest case against and conclusion", "Stärkste Gegenposition und Schluss"),
+        prompts: [
+          l(
+            "Steelman the objections, name the open risks, and state what evidence would change the assessment.",
+            "Die Einwände in ihrer stärksten Form darstellen, offene Risiken benennen und sagen, welche Belege die Einschätzung ändern würden.",
+          ),
+        ],
+      },
+    ],
+    references: [],
+    revisions: [],
+  },
 ];
 
 export const publishedArticles: PublishedArticle[] = [];
