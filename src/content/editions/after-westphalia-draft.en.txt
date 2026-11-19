@@ -1,0 +1,61 @@
+STATUS: UNPUBLISHED DRAFT (expanded version). Not wired into the site. Every claim tagged [UNVERIFIED - SOURCE CHECK REQUIRED] must be checked against its source before publication. No citation below has been checked against its text.
+
+# After Westphalia: Sovereignty, Jurisdiction and Legitimacy
+
+## Abstract
+
+The Peace of Westphalia of 1648 is often presented as the founding moment of the modern state system, in which sovereign states of equal standing govern their own territories and do not interfere in one another's affairs. This essay examines that account. It argues that the 1648 settlements concerned the internal order of the Holy Roman Empire, that the idea of a system of equal sovereign states is a later interpretive construction, and that the vocabulary of sovereignty obscures three distinct claims: control over territory and infrastructure, jurisdiction over persons and acts, and legitimacy of rule. Separating these claims shows that the question after Westphalia is not whether the state system will be replaced, but how overlapping authorities can be ordered in ways that the people they govern can recognize, contest and correct. The essay compares three families of alternative arrangements and identifies the tests each must pass.
+
+## 1. Question and thesis
+
+The question is what sovereignty means when jurisdictions overlap and the decisions that matter most cross state borders. The thesis has two parts. First, sovereignty is better understood as a bundle of claims that can be assessed separately, rather than a single property that states either have or lack. Second, the most important post-Westphalian question is not which entity replaces the state, but which arrangements of overlapping authority meet the conditions of accountability, exit and recognition.
+
+The essay does not argue that the state system has failed or that it should be abandoned. Its claim is more limited: that the conceptual foundation of the system is less settled than its institutional practice suggests, and that alternatives should be assessed against explicit criteria.
+
+## 2. Historical context
+
+The treaties of Osnabrück and Münster, concluded in 1648, ended the Thirty Years' War within the Holy Roman Empire. Their provisions addressed the rights of imperial estates, religious settlement and the relationship between the Emperor and the territorial princes. They did not establish a general system of sovereign states in Europe, and their language on sovereignty concerned the princes' rights within the imperial constitution rather than a doctrine of equal sovereign states [UNVERIFIED - SOURCE CHECK REQUIRED: confirm treaty provisions and dating against the primary text or a standard edition].
+
+Andreas Osiander's influential article argues that the idea of a 1648 "Westphalian" order, in which sovereign states stand in equal relation, is a later construction, developed in the nineteenth and twentieth centuries and read back into the treaties [Osiander, "Sovereignty, International Relations, and the Westphalian Myth", *International Organization*, 2001 - UNVERIFIED - SOURCE CHECK REQUIRED: confirm journal volume, issue and pages]. The essay follows this reading in its main claim, but does not treat it as the only interpretation.
+
+Charles Tilly's account of state formation offers a different historical lens. He explains the rise of European states through coercion, capital and the extraction of resources, rather than through a legal doctrine of sovereignty [Tilly, *Coercion, Capital, and European States, AD 990-1990*, Basil Blackwell, 1990 - UNVERIFIED - SOURCE CHECK REQUIRED: confirm chapter and page references]. On this reading, the territorial state was a practical outcome of military and fiscal competition, and the legal language of sovereignty followed after.
+
+## 3. Conceptual distinctions
+
+Three concepts need to be kept apart. Territorial control is the capacity to govern a defined area, including its infrastructure and its use of force. Jurisdiction is the authority to make and apply law to particular persons and acts, which may or may not coincide with territory. Legitimacy is the recognition of rules as binding by those who live under them, including the ability to contest and change those rules.
+
+Stephen Krasner describes sovereignty as "organized hypocrisy": states routinely assert sovereign equality while accepting limits through treaties, intervention and economic dependence [Krasner, *Sovereignty: Organized Hypocrisy*, Princeton University Press, 1999 - UNVERIFIED - SOURCE CHECK REQUIRED: confirm wording and page numbers]. Krasner's distinction between domestic, interdependence and international legal sovereignty is useful here, because it shows that each form of sovereignty can be present or absent independently.
+
+The distinction matters because it dissolves the apparent choice between a sovereign state and no authority at all. A territory can be controlled without being legitimate, and a jurisdiction can be legitimate without controlling the territory where its acts take place.
+
+## 4. Comparative institutional analysis
+
+Three families of alternatives are compared.
+
+The first is layered or multi-level order, in which authority is divided among local, national, regional and global bodies with defined competences. The European Union is the most discussed example, but any federal or confederal arrangement belongs to this family [UNVERIFIED - SOURCE CHECK REQUIRED: cite a verified comparative study of multi-level governance]. Its strength is that competences can match the scale of problems. Its weakness is that accountability can become diffuse when decisions are made by bodies that the affected population cannot readily reach.
+
+The second is private or community governance, in which institutions outside the state provide services and set rules for their members. Mutual insurance societies, professional bodies and religious arbitration courts are examples [UNVERIFIED - SOURCE CHECK REQUIRED: cite a verified study of private governance within a national legal system]. Their strength is responsiveness to members. Their weakness is dependence on the state for enforcement, and the risk that members who cannot leave are not protected.
+
+The third is network or consent-based membership, in which belonging is based on voluntary association rather than territory. Elinor Ostrom's work on common-pool resources suggests that groups can design their own rules and sanctions under specific conditions, including clear boundaries, monitoring and graduated sanctions [Ostrom, *Governing the Commons*, Cambridge University Press, 1990 - UNVERIFIED - SOURCE CHECK REQUIRED: confirm design principles and page references]. Its strength is that membership reflects consent. Its weakness is that consent-based groups have limited means of recognition and of enforcing decisions against non-members.
+
+Each family moves the problem rather than removing it. Layered orders need procedures for resolving conflicts between levels. Community orders need protection for dissenters and for those who cannot leave. Network orders need a path to recognition by external authorities.
+
+## 5. Counterarguments and conclusion
+
+The strongest objection to this analysis is that the Westphalian system, whatever its conceptual weaknesses, provides a stable and recognizable basis for peace and for allocating responsibility. The objection deserves a serious answer. The essay accepts that the territorial state has been an effective unit of accountability in many settings, and that alternatives can be less accountable than the institutions they replace.
+
+The essay's response is that the criteria for judging alternatives should be explicit: whether those affected can know the rules, contest them, change them and exit from them at reasonable cost, and whether an authority outside the arrangement can review its decisions. Under these criteria, the question after Westphalia becomes one of designing overlapping authorities that satisfy them, not of choosing between a sovereign state and its absence.
+
+A second objection is that the criteria themselves favor liberal and voluntary models. The essay does not dispute that its criteria reflect particular values. Its claim is that these values are the ones that the state system has itself asserted, and that they should be applied consistently to all forms of authority, including the state.
+
+The essay concludes that the post-Westphalian order is best understood as a set of conditional arrangements rather than a successor state system. The tests set out here are offered as a way of comparing them openly.
+
+## Sources requiring verification
+
+1. Osiander, "Sovereignty, International Relations, and the Westphalian Myth", *International Organization* (2001). Verify volume, issue and pages.
+2. Tilly, *Coercion, Capital, and European States, AD 990-1990* (1990). Verify chapter and page references.
+3. Krasner, *Sovereignty: Organized Hypocrisy* (1999). Verify wording and pages.
+4. Ostrom, *Governing the Commons* (1990). Verify design principles and page references.
+5. Treaties of Osnabrück and Münster (1648). Verify provisions against the primary text or a standard edition.
+6. Comparative study of multi-level governance (not yet identified). Needed for section 4.
+7. Study of private governance within a national legal system (not yet identified). Needed for section 4.

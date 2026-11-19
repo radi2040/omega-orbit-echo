@@ -1,0 +1,59 @@
+STATUS: UNPUBLISHED DRAFT (expanded version). Not wired into the site. Every claim tagged [UNVERIFIED - SOURCE CHECK REQUIRED] must be checked against its source before publication. No citation below has been checked against its text.
+
+# Parallel Societies: Coexistence, Exit and the Limits of Autonomy
+
+## Abstract
+
+A parallel society is a community that organizes much of its economic, educational, religious or civic life apart from the wider society, while remaining formally subject to the same law. The term is often used in public debate with little precision. This essay sets out what the concept can and cannot mean, examines when parallel arrangements are a legitimate expression of pluralism and when they undermine common institutions, and proposes three tests for telling them apart. The argument is that the difference lies less in separation itself than in whether members can exit, whether dissenters are protected, and whether the arrangement stays accountable to the law that applies to everyone.
+
+## 1. Defining the concept
+
+The essay uses "parallel society" to mean a community with three features: it maintains its own institutions for significant areas of life; its members participate in those institutions in preference to, or instead of, common ones; and its boundary with the wider society is maintained deliberately. Each feature can exist in degrees, and none is wrong in itself. Religious communities, linguistic minorities and professional associations all have some of them.
+
+The term is used most often in public debate about immigrant communities in Western Europe, and the essay acknowledges that the concept has been applied unevenly. A definition that applies only to some groups is not a neutral analytical tool. The definition above is therefore intended to apply to any community, and the tests below are framed without reference to any particular group.
+
+## 2. Pluralism and its limits
+
+Liberal political thought has long recognized that a free society contains communities with different values, and that people should be free to associate within them. John Rawls's account of reasonable pluralism treats this as a fact of modern life to be managed through shared political principles rather than eliminated [UNVERIFIED - SOURCE CHECK REQUIRED: confirm wording and page references in *Political Liberalism*, Columbia University Press, 1993].
+
+Pluralism has limits. Communities can organize their own affairs, but they cannot override rights that apply to every member of the wider society, and they cannot deny those rights to people inside them. The essay's question is where that line falls for parallel arrangements, and how it can be drawn without treating separation as inherently suspect.
+
+## 3. Exit, voice and loyalty
+
+Albert Hirschman's framework of exit, voice and loyalty gives a clear way to assess any community's internal life [Hirschman, *Exit, Voice, and Loyalty*, Harvard University Press, 1970 - UNVERIFIED - SOURCE CHECK REQUIRED: confirm edition and pages]. A community is healthy to the extent that members can leave without catastrophic cost, can voice objections that are heard, and remain loyal by choice rather than by necessity.
+
+Parallel arrangements are most worrying where exit is costly. If leaving a community means losing housing, work, family or the means to live, then the apparent voluntariness of membership is weak. The first test follows directly: whether a member can leave at reasonable cost. This is a test of the conditions of membership, not of the community's beliefs or practices.
+
+## 4. Protection of dissenters
+
+The second test concerns people who stay and disagree. Any community that organizes significant life without the wider society must provide an independent route for objection. Members should be able to contest decisions that affect them, to seek review by an authority outside the community, and to be protected from retaliation for doing so [UNVERIFIED - SOURCE CHECK REQUIRED: cite a verified study of internal dissent and protection in minority communities].
+
+The dissent test is the one most often ignored in debate. A community may be voluntary in its formation and still exclude members who question its rules. The essay regards that exclusion as a central concern, because it is where the costs of separation fall on individuals who have no realistic alternative.
+
+## 5. Accountability to common law
+
+The third test asks whether the arrangement stays answerable to the law that applies to everyone. Parallel institutions can handle disputes internally, provided those disputes do not involve matters that the law reserves to public authorities, and provided the outcomes can be reviewed in the ordinary courts. Arbitration and mediation can serve members well when these conditions hold.
+
+Where internal institutions act outside the law, or where they remove the ability of members to seek public remedies, the arrangement has moved from pluralism to a parallel legal order. This is the point at which common institutions are undermined, and the essay treats it as a clear line rather than a matter of degree.
+
+## 6. Comparative cases
+
+Three comparisons clarify the tests. Mutual insurance societies and professional bodies have long governed some areas of their members' lives under common law and with clear exit and review. Religious courts operating within national legal systems, under statutory recognition and appeal, show the arrangement at its most structured [UNVERIFIED - SOURCE CHECK REQUIRED: cite a verified comparative study of religious arbitration within national legal systems]. Closed communities that restrict members' access to schooling or public remedies show the opposite, and fail the first and third tests [UNVERIFIED - SOURCE CHECK REQUIRED: cite verified case material on such communities].
+
+The comparisons suggest that separation is not the decisive variable. The decisive variables are the conditions of exit, the presence of review, and the continued answerability to common law.
+
+## 7. Counterarguments and conclusion
+
+The strongest objection is that the three tests are themselves tilted toward a particular liberal conception of the individual, and that communities with different ideas of personhood will fail them for reasons the community does not share. This objection is serious. The essay's reply is that the tests protect the basic ability to leave and to be heard, which people with very different values can all endorse, and that a community which cannot meet them is not a voluntary association in the relevant sense.
+
+A second objection is that public debate often uses the concept to target specific groups. The essay accepts this risk, and for that reason applies the tests to any community, not to any particular group. A parallel arrangement that fails the tests should be criticized, and one that passes them should not be treated as suspect merely because it is separate.
+
+The essay concludes that a parallel society is a legitimate feature of a plural order when it preserves exit, protects dissent and remains answerable to common law. Where it does not, the problem is not its separation but the loss of the protections that make separation acceptable.
+
+## Sources requiring verification
+
+1. Rawls, *Political Liberalism* (1993). Verify wording and page references.
+2. Hirschman, *Exit, Voice, and Loyalty* (1970). Verify edition and pages.
+3. Study of internal dissent and protection in minority communities (not yet identified). Needed for section 4.
+4. Comparative study of religious arbitration within national legal systems (not yet identified). Needed for section 6.
+5. Verified case material on closed communities (not yet identified). Needed for section 6.

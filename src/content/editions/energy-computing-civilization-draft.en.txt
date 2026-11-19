@@ -1,0 +1,49 @@
+STATUS: UNPUBLISHED DRAFT. Not wired into the site. Every claim tagged [UNVERIFIED - SOURCE CHECK REQUIRED] must be checked against its source before publication. No citation below has been checked against its text.
+
+# Energy, Computing and Future Civilization: System Boundaries and Scenarios
+
+## Abstract
+
+Energy and computation are increasingly coupled: data centers, computing hardware and digital networks consume large and growing shares of generated power, and computing capacity is used to optimize energy systems. This essay sets the boundaries of the joint system, examines the relationship between energy and computational capacity, and considers who owns and governs the infrastructure. It argues that the question of future civilization depends less on total capacity than on resilience, ownership and distribution, and that scenario claims in this area are highly sensitive to assumptions that are not yet well verified.
+
+## 1. System boundaries
+
+The analysis needs a defined boundary. The essay separates the generation of energy, its transmission and storage, the hardware that consumes it for computation, and the networks and institutions that govern all three. Each boundary changes what counts as a system's footprint. A data center may be efficient within its walls while depending on a grid that is not.
+
+The boundary also determines which claims are testable. Claims about the energy use of computing depend on measurement at the facility and grid level, and many published estimates rely on assumptions that are not documented [UNVERIFIED - SOURCE CHECK REQUIRED: cite a verified study of data-center energy use with its methodology].
+
+## 2. Energy and computation
+
+Computation requires energy, and the efficiency of computing hardware has improved over decades. Whether total energy demand rises depends on whether efficiency gains outpace growth in use. This is a question of empirical trends, not of principle [UNVERIFIED - SOURCE CHECK REQUIRED: cite a verified long-run dataset on computing efficiency and total energy demand].
+
+Computation can also reduce energy use, for example through grid optimization and demand forecasting. The net effect of the two relationships is not settled by reasoning alone.
+
+## 3. Ownership and resilience
+
+Energy and computing infrastructure can be owned by states, utilities, firms or communities. Concentrated ownership can make a system efficient, but it can also make it fragile if a single operator fails or is compromised. Distributed ownership can increase resilience, but it adds coordination costs.
+
+Elinor Ostrom's work on polycentric arrangements offers a framework for thinking about shared infrastructure with several centers of authority [Ostrom, "Beyond Markets and States", *American Economic Review* 100(3), 2010 - UNVERIFIED - SOURCE CHECK REQUIRED: confirm volume, issue and pages]. Whether that framework applies to energy-computing infrastructure is a hypothesis to test, not a finding.
+
+## 4. Governance and distribution
+
+Who governs the joint system determines who benefits from its capacity and who bears its costs. Energy prices, data-center siting and access to computing resources are all distributional questions. A system that delivers aggregate capacity may still leave some communities with the costs of siting and the benefits going elsewhere.
+
+The governance question also has a time dimension. Decisions about infrastructure made today lock in patterns of use for decades, so the institutions that make them matter for future generations as well as current ones [UNVERIFIED - SOURCE CHECK REQUIRED: cite a verified source on long-lived infrastructure lock-in].
+
+## 5. Scenarios and caveats
+
+The essay considers three scenarios: continued concentration of energy and computing ownership, distributed ownership with coordination costs, and mixed arrangements with clear rules for each layer. Each scenario depends on assumptions about efficiency, demand and governance that are not established.
+
+The essay makes no numerical forecast. Any forecast in this area needs its assumptions stated, its sources verified and its sensitivity to those assumptions reported. Where a published scenario depends on a single optimistic assumption, that dependence should be stated in the claim itself.
+
+## 6. Conclusion
+
+The future of energy-intensive computing depends on boundaries, efficiency trends, ownership and governance, and each of these is currently under-verified. The essay's position is that resilience and distribution matter as much as total capacity. Infrastructure that is efficient but concentrated, or distributed but uncoordinated, each has a characteristic failure mode, and the institutions that govern it should be judged on those failure modes as well as on aggregate performance.
+
+## Sources requiring verification
+
+1. Verified study of data-center energy use with its methodology (not yet identified). Needed for section 1.
+2. Verified long-run dataset on computing efficiency and total energy demand (not yet identified). Needed for section 2.
+3. Ostrom, "Beyond Markets and States", *American Economic Review* (2010). Verify volume, issue and pages.
+4. Verified source on long-lived infrastructure lock-in (not yet identified). Needed for section 4.
+5. Any published scenario used in section 5 (not yet identified). Each must be verified before use.

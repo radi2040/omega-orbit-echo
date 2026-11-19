@@ -1,0 +1,49 @@
+STATUS: UNPUBLISHED DRAFT. Not wired into the site. Every claim tagged [UNVERIFIED - SOURCE CHECK REQUIRED] must be checked against its source before publication. No citation below has been checked against its text.
+
+# Polycentric Governance: Rules, Scales and Evidence
+
+## Abstract
+
+Polycentric governance describes systems in which many overlapping decision centers, each with some autonomy, share authority over a common problem. The concept comes from Vincent and Elinor Ostrom's work on metropolitan governance and common-pool resources. This essay sets out its analytical foundations, examines the evidence on when such systems work, and applies the design principles to a range of settings beyond the commons. The argument is that polycentricity is not a substitute for hierarchy or markets but a structural option, whose success depends on feedback between scales, credible conflict resolution and the match between rules and local conditions.
+
+## 1. Analytical foundations
+
+The term was introduced by Vincent Ostrom, Charles Tiebout and Robert Warren in a study of metropolitan areas [Ostrom, Tiebout and Warren, "The Organization of Government in Metropolitan Areas", *American Political Science Review*, 1961 - UNVERIFIED - SOURCE CHECK REQUIRED: confirm journal, volume and pages]. The core claim is that multiple governing units, with overlapping jurisdictions, can respond to local preferences and reduce the costs of coordinating a single monolithic authority.
+
+Elinor Ostrom extended this in *Governing the Commons* (Cambridge University Press, 1990), where she identified design principles under which groups manage shared resources without privatization or central command [UNVERIFIED - SOURCE CHECK REQUIRED: confirm wording and page numbers of the design principles]. Her later work on complex economic systems develops the polycentric argument at a broader scale [Ostrom, "Beyond Markets and States", *American Economic Review* 100(3), 2010 - UNVERIFIED - SOURCE CHECK REQUIRED: confirm volume, issue and pages].
+
+## 2. Evidence and case selection
+
+The empirical evidence is mixed and depends on case selection. Ostrom's field studies of irrigation systems, fisheries and forests found many long-lived community arrangements that outperformed both state and market alternatives in specific conditions [UNVERIFIED - SOURCE CHECK REQUIRED: cite the specific studies and their outcome measures]. The same studies also documented failures where rules were imposed from outside, monitoring was weak, or resource users had no say.
+
+Case selection is therefore central. Successful cases are over-represented in the literature because they are easier to study and report. An honest assessment needs failed cases, with the same level of documentation.
+
+## 3. Design principles in context
+
+Ostrom's principles include clear group boundaries, rules matched to local conditions, collective-choice arrangements, monitoring, graduated sanctions, conflict-resolution mechanisms, minimal recognition of the right to organize, and nested enterprises for larger systems [UNVERIFIED - SOURCE CHECK REQUIRED: confirm the list and wording against the original].
+
+The principles matter most at the boundary between scales. A decision center that works well for a local fishery may not work for a regional water system, and nested arrangements are the mechanism that connects them. Their value depends on whether conflicts can be resolved between nests without the dominance of one.
+
+## 4. Applications beyond the commons
+
+Polycentric arrangements appear in many settings: metropolitan service provision, the governance of internet infrastructure through standards bodies, and private regulatory schemes in some industries. Each setting requires separate evidence [UNVERIFIED - SOURCE CHECK REQUIRED: cite verified studies for at least two of these settings].
+
+The key transferable question is whether a setting has the feedback that makes polycentric arrangements self-correcting: local actors who see outcomes, rules that can be revised, and a credible way to resolve disputes between centers.
+
+## 5. Limits and counterarguments
+
+Polycentricity has three recognized weaknesses. Coordination costs rise with the number of centers. Free-riding can persist across scales. And polycentric systems can be captured by the most powerful center, which then appears to be one among many while controlling the outcome.
+
+Critics argue that the empirical record is too selective to support a general theory. That objection is partly right. The essay's position is narrower: polycentricity is a set of conditions, not a universal design, and its claims should be tested against the failure cases.
+
+## 6. Conclusion
+
+Polycentric governance is a structural option with specific requirements: feedback, credible conflict resolution, rules fitted to local conditions and nested connections between scales. Where those requirements are met, many centers can govern effectively. Where they are not, polycentricity reproduces fragmentation or capture. The practical question for any proposed system is therefore not whether it is polycentric, but whether it has these conditions.
+
+## Sources requiring verification
+
+1. Ostrom, Tiebout and Warren, "The Organization of Government in Metropolitan Areas", *American Political Science Review* (1961). Verify journal details.
+2. Elinor Ostrom, *Governing the Commons* (Cambridge University Press, 1990). Verify design principles and pages.
+3. Elinor Ostrom, "Beyond Markets and States", *American Economic Review* (2010). Verify volume, issue and pages.
+4. Specific field studies cited in section 2 (not yet identified).
+5. Verified studies for at least two applications in section 4 (not yet identified).

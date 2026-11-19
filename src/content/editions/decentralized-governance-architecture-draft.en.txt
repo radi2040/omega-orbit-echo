@@ -1,0 +1,46 @@
+STATUS: UNPUBLISHED DRAFT. Not wired into the site. Every claim tagged [UNVERIFIED - SOURCE CHECK REQUIRED] must be checked against its source before publication. No citation below has been checked against its text.
+
+# Decentralized Governance Architecture: Dimensions, Components and Failure Modes
+
+## Abstract
+
+Decentralized governance systems distribute decision rights across participants, rather than concentrating them in a single authority. Comparing them requires a common set of dimensions, not a list of individual projects. This essay defines those dimensions, sets out the institutional components that recur across decentralized systems, builds a comparison matrix, and analyzes the ways in which such systems fail or are captured. The argument is that decentralization is a matter of degree across several independent axes, and that architecture is judged by how each axis handles accountability, exit and conflict.
+
+## 1. Define dimensions
+
+Four dimensions are used for comparison: where decisions are made (the decision locus), who holds decision rights (the membership rule), how rules change (the amendment process) and how disputes are resolved (the adjudication process). A system can be decentralized on one dimension and centralized on another. A protocol with many node operators may still have a single upgrade authority.
+
+The distinction follows the logic of Ostrom's work on polycentric systems, in which authority is shared across centers with defined roles [Ostrom, "Beyond Markets and States", *American Economic Review* 100(3), 2010 - UNVERIFIED - SOURCE CHECK REQUIRED: confirm volume, issue and pages].
+
+## 2. Institutional components
+
+Five components recur. A membership rule defines who can participate. A voting or signaling mechanism aggregates preferences. A treasury or resource pool funds operations. An amendment procedure governs rule changes. A dispute process resolves conflicts. Each component can be designed separately, and each can be a point of concentration.
+
+The essay treats these components as the unit of analysis rather than the project name, because the same component can serve very different purposes across systems. [UNVERIFIED - SOURCE CHECK REQUIRED: cite a verified taxonomy of institutional components from the governance literature, if one is used in the final version.]
+
+## 3. Comparative matrix
+
+A comparison matrix places each system along the four dimensions. For each cell, the matrix records the rule, the evidence and the level of verification. Systems are compared on the same questions, so that differences in design, rather than marketing, become visible.
+
+The matrix is a tool, not a result. Its value depends on the quality of the evidence in each cell, and most cells in the current literature are not yet supported by independent assessment [UNVERIFIED - SOURCE CHECK REQUIRED: populate the matrix with verified system descriptions before publication].
+
+## 4. Failure and capture
+
+Decentralized systems fail in recognizable ways. Token-weighted voting can concentrate decision rights in a few large holders. Delegation can produce de facto representatives who are not accountable to delegators. Off-chain coordination can determine outcomes that the on-chain rules appear to govern. Dispute processes can be slow, expensive or captured by the parties they are meant to constrain.
+
+Capture is the central risk. A system is captured when a small group controls the outcomes while the formal structure suggests broad participation. Detecting capture requires observing actual decision patterns, not only the formal rules [UNVERIFIED - SOURCE CHECK REQUIRED: cite verified empirical analysis of voting concentration in a decentralized governance system].
+
+## 5. Design implications
+
+Four design implications follow. Decision rights should be matched to the people affected by them. Amendment processes should be harder to change than ordinary decisions, but not impossible. Dispute processes should be independent of the parties with the most power. And measurable indicators of concentration and participation should be published, so that capture can be detected.
+
+## 6. Conclusion
+
+Decentralized governance architecture is best judged on its dimensions, its components and its failure modes. No single system can be declared decentralized in general. The useful question is which decisions are distributed, to whom, by what rule, and with what remedy when the rule fails. Architecture that answers these questions openly is more accountable than architecture that relies on the appearance of distribution.
+
+## Sources requiring verification
+
+1. Ostrom, "Beyond Markets and States", *American Economic Review* (2010). Verify volume, issue and pages.
+2. Verified taxonomy of institutional components (not yet identified). Needed for section 2.
+3. Verified system descriptions for the comparison matrix (not yet identified). Needed for section 3.
+4. Empirical analysis of voting concentration in a decentralized governance system (not yet identified). Needed for section 4.
