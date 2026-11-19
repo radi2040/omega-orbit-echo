@@ -1,0 +1,43 @@
+STATUS: UNPUBLISHED DRAFT. Not wired into the site. Every claim tagged [UNVERIFIED - SOURCE CHECK REQUIRED] must be checked against its source before publication. No citation below has been checked against its text.
+
+# Parallel Societies: Institutions That Run Alongside the State
+
+## Abstract
+
+Parallel societies are communities that organize essential services, dispute resolution or identity alongside an existing state, without replacing it. This essay defines the concept, distinguishes it from secession, enclaves and autonomous regions, and asks under what conditions such institutions remain legitimate, accountable and stable. The argument is that parallel institutions are not a single phenomenon. Their outcomes depend on resource dependence, the exit options available to their members, and whether the state retains a credible claim over the people inside them.
+
+## 1. Institutional forms
+
+A parallel institution provides a function that the state also claims: courts, schools, insurance, charity, credentialing or security. It does so under its own rules and often its own leadership. The form varies. Religious courts that apply personal status law within a national legal system are one form [UNVERIFIED - SOURCE CHECK REQUIRED: cite a verified comparative study of religious arbitration under national law]. Mutual aid societies and cooperative insurers are another. Private security and community policing are a third.
+
+The concept needs a clear boundary. A parallel institution is not a separate state, because it does not claim territory or recognition. It is also not merely a private firm, because it claims authority over a defined membership.
+
+## 2. Resources and dependencies
+
+Parallel institutions depend on resources. They need money, members, premises and, often, the cooperation of the state for legal recognition. The essay's central analytical claim is that the degree of dependence predicts whether an institution remains a supplement or becomes a rival.
+
+Two dependencies matter most. First, financial: institutions funded by members can remain autonomous, while institutions funded by an outside patron are more exposed to that patron's conditions. Second, legal: an institution whose decisions require state enforcement stays inside the state's reach, even when it is self-governing in form. [UNVERIFIED - SOURCE CHECK REQUIRED: cite verified empirical work on the funding and legal dependence of community organizations.]
+
+## 3. Voice, exit and accountability
+
+Albert Hirschman's distinction between exit and voice is the central analytical tool for this section [Hirschman, *Exit, Voice, and Loyalty*, Harvard University Press, 1970 - UNVERIFIED - SOURCE CHECK REQUIRED: confirm edition and pages]. A parallel institution is accountable when members can leave at reasonable cost and can change its rules from within. Where exit is costly, as it often is for people whose livelihood, family or legal status depends on the institution, accountability requires voice, and voice requires internal institutions that work.
+
+Elinor Ostrom's design principles for common-pool resources offer a useful checklist for internal accountability: clear membership, rules matched to local conditions, monitoring, graduated sanctions, conflict resolution and recognition of the group's right to organize [Ostrom, *Governing the Commons*, Cambridge University Press, 1990 - UNVERIFIED - SOURCE CHECK REQUIRED: confirm wording and page references].
+
+## 4. Outcomes and failure modes
+
+Three failure modes recur. Capture occurs when a leadership group uses the institution to control its members. Exclusion occurs when the institution's boundaries exclude people who need its services and have no alternative. Fragmentation occurs when competing parallel institutions weaken the common public good that the state was meant to provide.
+
+The state's response is also part of the outcome. Where the state withdraws from a service, it leaves a vacuum that a parallel institution may fill. Where it actively contests the institution's authority, the institution may gain a defensive identity that strengthens internal loyalty while reducing outside accountability. [UNVERIFIED - SOURCE CHECK REQUIRED: cite a verified case study of state response to a parallel institution.]
+
+## 5. Conclusion
+
+Parallel societies are better understood as a spectrum of institutional arrangements than as a single threat or a single solution. The decisive questions are practical: who funds the institution, whether members can exit and be heard, whether the state keeps a credible claim over people inside it, and whether the institution's rules can be changed by its members. The essay's conclusion is that parallel institutions are compatible with a legitimate state when they are accountable to their members, open to exit and subject to enforceable limits on coercion. Where those conditions fail, they become a problem for the state and for their own members.
+
+## Sources requiring verification
+
+1. Albert Hirschman, *Exit, Voice, and Loyalty* (Harvard University Press, 1970). Verify edition and pages.
+2. Elinor Ostrom, *Governing the Commons* (Cambridge University Press, 1990). Verify design principles and page numbers.
+3. Comparative study of religious arbitration under national law (not yet identified). Needed for section 1.
+4. Empirical work on funding and legal dependence of community organizations (not yet identified). Needed for section 2.
+5. Case study of state response to a parallel institution (not yet identified). Needed for section 4.
