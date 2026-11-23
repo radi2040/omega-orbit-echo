@@ -90,17 +90,9 @@ export function Brand({ small = false }: { small?: boolean }) {
   );
 }
 
-/** Nav link that sends German readers to the German research section. */
+/** One main-navigation link. */
 function NavLink({ item, className, onClick }: { item: NavItem; className: string; onClick?: () => void }) {
   const t = useT();
-  const { lang } = useLang();
-  if (item.to === "/en/research" && lang === "de") {
-    return (
-      <Link to="/de/forschung" onClick={onClick} className={className}>
-        {t(item.label)}
-      </Link>
-    );
-  }
   return (
     <Link to={item.to} onClick={onClick} activeOptions={{ exact: item.to === "/" }} className={className}>
       {t(item.label)}
