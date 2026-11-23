@@ -109,3 +109,66 @@ describe("smart contract lifecycle", () => {
     expect(r[4]).toMatchObject({ status: "fail", reason: "unconfirmed" });
   });
 });
+
+import { baseSwarm, simulateSwarm } from "./swarm";
+import { baseReplication, bftPossible, itemAvailability, maxByzantine, simulateReplication } from "./replication";
+
+describe("swarm task-allocation model", () => {
+  it("is deterministic for a given seed", () => {
+    expect(simulateSwarm(baseSwarm)).toEqual(simulateSwarm(baseSwarm));
+  });
+
+  it("caps manipulators at half the agents", () => {
+    expect(simulateSwarm({ ...baseSwarm, agents: 100, manipulators: 0.9 }).manipulators).toBe(50);
+  });
+
+  it("without manipulators, honest agents cover most of the need", () => {
+    expect(simulateSwarm(baseSwarm).avgUnmetShare).toBeLessThan(0.2);
+  });
+
+  it("false reports pull extra workers onto the target task", () => {
+    const clean = simulateSwarm(baseSwarm);
+    const attacked = simulateSwarm({ ...baseSwarm, manipulators: 0.3 });
+    expect(attacked.avgMisallocated).toBeGreaterThan(clean.avgMisallocated);
+  });
+
+  it("median cross-checking reduces misallocation under a minority attack", () => {
+    const mean = simulateSwarm({ ...baseSwarm, manipulators: 0.3 });
+    const checked = simulateSwarm({ ...baseSwarm, manipulators: 0.3, crossCheck: true });
+    expect(checked.avgMisallocated).toBeLessThan(mean.avgMisallocated);
+  });
+});
+
+describe("replication model", () => {
+  it("item availability is 1 - p^r", () => {
+    expect(itemAvailability(0.2, 3)).toBeCloseTo(0.992, 6);
+    expect(itemAvailability(0.5, 1)).toBe(0.5);
+  });
+
+  it("BFT needs n >= 3f + 1", () => {
+    expect(bftPossible(4, 1)).toBe(true);
+    expect(bftPossible(3, 1)).toBe(false);
+    expect(maxByzantine(10)).toBe(3);
+  });
+
+  it("loses nothing when no node fails and none is Byzantine", () => {
+    const r = simulateReplication({ ...baseReplication, failureP: 0, byzantine: 0 });
+    expect(r.lost).toBe(0);
+    expect(r.untrusted).toBe(0);
+  });
+
+  it("clamps replication to the number of nodes", () => {
+    expect(simulateReplication({ ...baseReplication, nodes: 5, replication: 7 }).replication).toBe(5);
+  });
+
+  it("is deterministic for a given seed", () => {
+    expect(simulateReplication(baseReplication)).toEqual(simulateReplication(baseReplication));
+  });
+});
+
+describe("swarm model limits", () => {
+  it("median cross-checking fails once manipulators reach half of the agents", () => {
+    const checked = simulateSwarm({ ...baseSwarm, manipulators: 0.5, crossCheck: true });
+    expect(checked.avgMisallocated).toBeGreaterThan(0.2);
+  });
+});

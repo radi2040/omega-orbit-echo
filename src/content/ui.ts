@@ -4,6 +4,7 @@ export type NavItem = {
   to:
     | "/"
     | "/vision"
+    | "/en/research"
     | "/architecture"
     | "/lab"
     | "/research"
@@ -18,9 +19,11 @@ export type NavItem = {
 export const navigation: NavItem[] = [
   { to: "/", label: l("Home", "Start") },
   { to: "/vision", label: l("Vision", "Vision") },
+  // Rendered as /de/forschung for German readers.
+  { to: "/en/research", label: l("Research", "Forschung") },
   { to: "/architecture", label: l("Architecture", "Architektur") },
   { to: "/lab", label: l("Interactive Lab", "Labor") },
-  { to: "/research", label: l("Research", "Forschung") },
+  { to: "/research", label: l("Sources", "Quellen") },
   { to: "/wissen", label: l("WISSEN & IDEEN", "WISSEN & IDEEN") },
   { to: "/roadmap", label: l("Roadmap", "Roadmap") },
   { to: "/founder", label: l("Founder", "Gründer") },
